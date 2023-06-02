@@ -93,3 +93,17 @@ O módulo a ser utilizado para esse projeto será o ESP32, por causa dos seguint
 - O ESP32 possuí a capacidade de salvar valores em memória. Isso será importante futuramente na utilização dos dados de utilização do usuário para a sugestão das melhores experiências possíveis para ele.
 
 ![image](https://user-images.githubusercontent.com/13921131/224205037-9e03cdd4-3a20-4177-81ee-c6d7aa00ef73.png)
+
+### Modificações no projeto
+
+Nesta seção, abordaremos as modificações propostas para aprimorar o projeto TeaWizard discutidas com os professores orientadores durante as aulas, visando facilitar a experiência do usuário e otimizar o processo de preparação do chá. As seguintes modificações serão incorporadas:
+
+- Reservatório de Água com Sensor de Ultrassom: Uma das modificações fundamentais a ser implementada no projeto é a introdução de um reservatório de água dedicado, equipado com um sensor de ultrassom para medir o volume de água utilizado. A água será colocada em um recipiente com medidas conhecidas, permitindo que o sensor de ultrassom calcule o volume com base na distância entre o sensor e a superfície da água. Essa abordagem proporciona maior precisão na medição do volume de água no tanque, considerando a forma do recipiente e otimizando o processo de preparação do chá.
+
+- Sistema de Bombeamento de Água: Para implementar a nova forma de funcionamento do projeto, será introduzido um sistema de bombeamento de água. A água do reservatório será transferida para um reservatório localizado acima do tanque por meio de uma bomba d'água. Essa configuração permite um controle mais eficiente do fluxo de água, garantindo uma dosagem precisa e facilitando a preparação personalizada do chá.
+
+- Aquecedor de Água e Sensor de Temperatura: Para atingir a temperatura ideal para o preparo do chá, será instalado um dispositivo de aquecimento de água no reservatório superior, juntamente com o sensor de temperatura. Essa combinação permitirá o monitoramento contínuo da temperatura da água durante o processo de aquecimento, garantindo que a temperatura correta seja alcançada antes de prosseguir para as etapas subsequentes.
+
+- Válvula Solenoide para Liberação Controlada: No reservatório de aquecimento, será incorporada uma válvula solenoide que controlará a liberação da água aquecida. Essa válvula solenoide será ativada pelo sistema quando a temperatura desejada for atingida. Dessa forma, o chá será preparado de maneira precisa e automática, proporcionando uma experiência mais conveniente e livre de complicações mecânicas.
+
+Com essas modificações no projeto, espera-se que a experiência do usuário seja significativamente aprimorada. Agora, o usuário pode facilmente preparar a quantidade desejada de chá, basta adicionar a erva no recipiente conectado à saída da válvula solenoide para que o chá seja preparado prontamente. Essas modificações permitem um processo de preparação do chá mais simplificado, eliminando as complexidades mecânicas que existiam na versão anterior do projeto.
